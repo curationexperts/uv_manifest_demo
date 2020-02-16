@@ -10,3 +10,6 @@ In the `env.development` file of your local Lux application, change your `IIIF_M
 * Boar Figurine - Metadata
   * https://digital-test.library.emory.edu/catalog/552w3r228t-cor
   * http://localhost:3001/catalog/552w3r228t-cor
+* Civil War-era tourniquet - Download size
+  * https://digital-test.library.emory.edu/catalog/822h70rxxb-cor
+  * http://localhost:3001/catalog/822h70rxxb-cor

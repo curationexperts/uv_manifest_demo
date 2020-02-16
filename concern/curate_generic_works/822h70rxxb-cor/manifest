@@ -1,0 +1,67 @@
+{
+  "@context":"http://iiif.io/api/presentation/2/context.json",
+  "@type":"sc:Manifest",
+  "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/822h70rxxb-cor/manifest",
+  "label":"Civil War-era brass screw tourniquet used to control bleeding in a limb or extremity",
+  "sequences":[
+    {
+      "@type":"sc:Sequence",
+      "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/822h70rxxb-cor/manifest/sequence/normal",
+      "rendering":[],
+      "canvases":[
+        {
+          "@type":"sc:Canvas",
+          "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/822h70rxxb-cor/manifest/canvas/037hqbzkhs-cor",
+          "label":"Image 1",
+          "width":640,
+          "height":480,
+          "images":[
+            {
+              "@type":"oa:Annotation",
+              "motivation":"sc:painting",
+              "resource":{
+                "@type":"dctypes:Image",
+                "@id":"https://curate-test.library.emory.edu/iiif/2/d4d69aabc76fedf018ab4b9d2717a1171e0c7d20/full/600,/0/default.jpg",
+                "height":480,
+                "width":640,
+                "format":null,
+                "service":{
+                  "@context":"http://iiif.io/api/image/2/context.json",
+                  "@id":"https://curate-test.library.emory.edu/iiif/2/d4d69aabc76fedf018ab4b9d2717a1171e0c7d20",
+                  "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on":"https://curate-test.library.emory.edu/concern/curate_generic_works/822h70rxxb-cor/manifest/canvas/037hqbzkhs-cor"
+            }
+          ]
+        },
+        {
+          "@type":"sc:Canvas",
+          "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/822h70rxxb-cor/manifest/canvas/849t1g1jxs-cor",
+          "label":"Image 2",
+          "width":640,
+          "height":480,
+          "images":[
+            {
+              "@type":"oa:Annotation",
+              "motivation":"sc:painting",
+              "resource":{
+                "@type":"dctypes:Image",
+                "@id":"https://curate-test.library.emory.edu/iiif/2/b25072daeaece90fff88edd38e15120de3c813c2/full/600,/0/default.jpg",
+                "height":480,
+                "width":640,
+                "format":null,
+                "service":{
+                  "@context":"http://iiif.io/api/image/2/context.json",
+                  "@id":"https://curate-test.library.emory.edu/iiif/2/b25072daeaece90fff88edd38e15120de3c813c2",
+                  "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on":"https://curate-test.library.emory.edu/concern/curate_generic_works/822h70rxxb-cor/manifest/canvas/849t1g1jxs-cor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
