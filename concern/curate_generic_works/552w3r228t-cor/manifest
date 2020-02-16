@@ -1,0 +1,44 @@
+{
+  "@context":"http://iiif.io/api/presentation/2/context.json",
+  "@type":"sc:Manifest",
+  "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/552w3r228t-cor/manifest",
+  "label":"Boar figurine",
+  "metadata":[
+    { "label": "Title", "value": "Boar figurine" },
+    { "label": "Date Created", "value": "1800 to 1894" },
+    { "label": "Collection", "value": "Oxford College Collection of Asian Artifacts" },
+    { "label": "Description / Abstract", "value": "Stone carving of the boar, one of the twelve animals of the Chinese Zodiac."}
+  ],
+  "sequences":[
+    {"@type":"sc:Sequence",
+      "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/552w3r228t-cor/manifest/sequence/normal",
+      "rendering":[],
+      "canvases":[
+        {"@type":"sc:Canvas",
+          "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/552w3r228t-cor/manifest/canvas/24298sf7md-cor",
+          "label":"Image 1",
+          "width":640,
+          "height":480,
+          "images":[
+            {"@type":"oa:Annotation",
+              "motivation":"sc:painting",
+              "resource":{
+                "@type":"dctypes:Image",
+                "@id":"https://curate-test.library.emory.edu/iiif/2/f12c60f9b8cbb89cbcd1807d23ded1710a478d0d/full/600,/0/default.jpg",
+                "height":480,
+                "width":640,
+                "format":null,
+                "service":{
+                  "@context":"http://iiif.io/api/image/2/context.json",
+                  "@id":"https://curate-test.library.emory.edu/iiif/2/f12c60f9b8cbb89cbcd1807d23ded1710a478d0d",
+                  "profile":"http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on":"https://curate-test.library.emory.edu/concern/curate_generic_works/552w3r228t-cor/manifest/canvas/24298sf7md-cor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,4 +4,9 @@ ruby -rwebrick -e 'WEBrick::HTTPUtils::DefaultMimeTypes["json"]="application/jso
 ```
 
 # Change IIIF server in ENV
-In the `env.development` file of your local Lux application, change your `IIIF_MANIFEST_URL` to `http://localhost:3002/`
+In the `env.development` file of your local Lux application, change your `IIIF_MANIFEST_URL` to `http://localhost:3002/concern/curate_generic_works/`
+
+# Examples
+* Boar Figurine - Metadata
+  * https://digital-test.library.emory.edu/catalog/552w3r228t-cor
+  * http://localhost:3001/catalog/552w3r228t-cor
