@@ -13,3 +13,6 @@ In the `env.development` file of your local Lux application, change your `IIIF_M
 * Civil War-era tourniquet - Download size
   * https://digital-test.library.emory.edu/catalog/822h70rxxb-cor
   * http://localhost:3001/catalog/822h70rxxb-cor
+* Obstetric Instruments - multi-page
+  * https://digital-test.library.emory.edu/catalog/279v15dv4g-cor
+  * http://localhost:3001/catalog/279v15dv4g-cor
