@@ -3,6 +3,7 @@
   "@type":"sc:Manifest",
   "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/279v15dv4g-cor/manifest",
   "label":"31 piece obstetrical instrumental set owned by Dr. C. W. Strickler, Jr.",
+  "attribution": "Emory University, Health Sciences Center Library Artifact collection",
   "sequences":[
     {
       "@type":"sc:Sequence",

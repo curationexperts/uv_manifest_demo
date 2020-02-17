@@ -2,22 +2,19 @@
   "@context":"http://iiif.io/api/image/2/context.json",
   "@id":"https://iiif-cor-test.library.emory.edu/cantaloupe/iiif/2/d4d69aabc76fedf018ab4b9d2717a1171e0c7d20",
   "protocol":"http://iiif.io/api/image",
-  "width":7831,
-  "height":5869,
+  "width":489,
+  "height":367,
   "sizes":[
     {"width":122,"height":92},
     {"width":245,"height":183},
     {"width":489,"height":367},
-    {"width":979,"height":734},
-    {"width":1958,"height":1467},
-    {"width":3916,"height":2935},
-    {"width":7831,"height":5869}
+    {"width":979,"height":734}
   ],
   "tiles":[
     {
       "width":979,
       "height":734,
-      "scaleFactors":[1,2,4,8,16,32,64]
+      "scaleFactors":[1, 2]
     }
   ],
   "profile":[
@@ -27,26 +24,6 @@
       "maxArea":400000000,
       "qualities":["bitonal","default","gray","color"],
       "supports":[
-        "regionByPx",
-        "sizeByW",
-        "sizeByWhListed",
-        "cors",
-        "regionSquare",
-        "sizeByDistortedWh",
-        "sizeAboveFull",
-        "canonicalLinkHeader",
-        "sizeByConfinedWh",
-        "sizeByPct",
-        "jsonldMediaType",
-        "regionByPct",
-        "rotationArbitrary",
-        "sizeByH",
-        "baseUriRedirect",
-        "rotationBy90s",
-        "profileLinkHeader",
-        "sizeByForcedWh",
-        "sizeByWh",
-        "mirroring"
       ]
     }
   ]
