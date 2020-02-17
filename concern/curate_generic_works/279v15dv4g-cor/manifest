@@ -6,6 +6,7 @@
   "sequences":[
     {
       "@type":"sc:Sequence",
+      "viewingHint": "paged",
       "@id":"https://curate-test.library.emory.edu/concern/curate_generic_works/279v15dv4g-cor/manifest/sequence/normal",
       "rendering":[],
       "canvases":[
