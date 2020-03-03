@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://localhost:3000/iiif/7956djh9wj-cor/manifest",
+  "@id": "http://localhost:3002/iiif/many_pics/manifest",
   "label": "Many daily pictures of Augusta, Georgia - Public Low View",
   "metadata": [
     {
@@ -30,12 +30,12 @@
   "sequences": [
     {
       "@type": "sc:Sequence",
-      "@id": "http://localhost:3000/iiif/7956djh9wj-cor/manifest/sequence/normal",
+      "@id": "http://localhost:3002/iiif/many_pics/manifest/sequence/normal",
       "rendering": [],
       "canvases": [
         {
           "@type": "sc:Canvas",
-          "@id": "http://localhost:3000/iiif/7956djh9wj-cor/manifest/canvas/955m905qgg-cor",
+          "@id": "http://localhost:3002/iiif/many_pics/manifest/canvas/955m905qgg-cor",
           "label": "many_pictures_augusta_georgia.jpg",
           "width": 640,
           "height": 480,
@@ -45,17 +45,17 @@
               "motivation": "sc:painting",
               "resource": {
                 "@type": "dctypes:Image",
-                "@id": "http://localhost:3000/images/955m905qgg-cor%2Ffiles%2Ffbb5641c-4ce2-4f52-ac7b-e3115c5c41ff/full/600,/0/default.jpg",
+                "@id": "http://localhost:8182/iiif/2/many_pictures_augusta_georgia/full/600,/0/default.jpg",
                 "height": 480,
                 "width": 640,
                 "format": null,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:3000/images/955m905qgg-cor%2Ffiles%2Ffbb5641c-4ce2-4f52-ac7b-e3115c5c41ff",
+                  "@id": "http://localhost:8182/iiif/2/many_pictures_augusta_georgia",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "http://localhost:3000/iiif/7956djh9wj-cor/manifest/canvas/955m905qgg-cor"
+              "on": "http://localhost:3002/iiif/many_pics/manifest/canvas/955m905qgg-cor"
             }
           ]
         }

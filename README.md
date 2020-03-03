@@ -1,14 +1,15 @@
-# Start a web server
+# For examples comparing deployed dlp-lux with local manifests
+## Start a web server
 In the directory where you have these examples, run a server on `localhost:3002`:
 ```bash
 ruby -rwebrick -e 'WEBrick::HTTPUtils::DefaultMimeTypes["json"]="application/json";WEBrick::HTTPServer.new(Port: 3002, DocumentRoot: Dir.pwd, RequestCallback: Proc.new{|req,res| res["Access-Control-Allow-Origin"] = "*" }).start'
 ```
 
-# Start your Application Server
+## Start your Application Server
 I usually run my Curate application on `localhost:3000` and my Lux application on `localhost:3001`, so the links below are for a Lux application on `localhost:3001`.
 * `bundle exec rails s -p 3001`
 
-# Change IIIF server in ENV
+## Change IIIF server in ENV
 In the `env.development` file of your local Lux application, use the following
 ```
 IIIF_MANIFEST_URL=http://localhost:3002/concern/curate_generic_works/
@@ -16,7 +17,7 @@ SOLR_URL=http://solr-cor-test.library.emory.edu/solr/curate_collection
 THUMBNAIL_URL=https://curate-test.library.emory.edu/
 ```
 
-# Examples
+## Examples
 * Boar Figurine - Metadata
   * https://digital-test.library.emory.edu/catalog/552w3r228t-cor
   * http://localhost:3001/catalog/552w3r228t-cor
@@ -26,3 +27,20 @@ THUMBNAIL_URL=https://curate-test.library.emory.edu/
 * Obstetric Instruments - Paged & Attribution
   * https://digital-test.library.emory.edu/catalog/279v15dv4g-cor
   * http://localhost:3001/catalog/279v15dv4g-cor
+
+# For experimenting with standard Universal viewer with local Cantaloupe server and local manifest and info.json
+## Manifest and info.json server
+In the directory where you have these examples, run a server on `localhost:3002`:
+```bash
+ruby -rwebrick -e 'WEBrick::HTTPUtils::DefaultMimeTypes["json"]="application/json";WEBrick::HTTPServer.new(Port: 3002, DocumentRoot: Dir.pwd, RequestCallback: Proc.new{|req,res| res["Access-Control-Allow-Origin"] = "*" }).start'
+```
+
+## Cantaloupe Server
+In the directory where you have your local Cantaloupe server, run
+```
+java -Dcantaloupe.config=/path/to/cantaloupe.properties -Xmx2g -jar cantaloupe-4.1.x.war
+```
+The default is for it to start on `localhost:8182`, and the manifest and info.json files in the examples assume that port.
+
+## Universal Viewer
+Go to http://universalviewer.io/, scroll down to "View a IIIF Manifest", and put `http://localhost:3002/many_pics/manifest` in the box, it should open a Universal Viewer which will be using your local files... **WIP: You're gonna have to get the images though...
