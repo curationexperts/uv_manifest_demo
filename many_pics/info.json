@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:8182/iiif/2/many_pictures_augusta_georgia",
+  "protocol": "http://iiif.io/api/image",
+  "width": 6492,
+  "height": 3592,
+  "sizes": [
+    {
+      "width": 203,
+      "height": 112
+    },
+    {
+      "width": 406,
+      "height": 225
+    },
+    {
+      "width": 812,
+      "height": 449
+    },
+    {
+      "width": 1623,
+      "height": 898
+    },
+    {
+      "width": 3246,
+      "height": 1796
+    },
+    {
+      "width": 6492,
+      "height": 3592
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ]
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level2.json",
+    {
+      "formats": [
+        "jpg",
+        "tif",
+        "gif",
+        "png"
+      ],
+      "maxArea": 23319264,
+      "qualities": [
+        "bitonal",
+        "default",
+        "gray",
+        "color"
+      ],
+      "supports": [
+        "regionByPx",
+        "sizeByW",
+        "sizeByWhListed",
+        "cors",
+        "regionSquare",
+        "sizeByDistortedWh",
+        "canonicalLinkHeader",
+        "sizeByConfinedWh",
+        "sizeByPct",
+        "jsonldMediaType",
+        "regionByPct",
+        "rotationArbitrary",
+        "sizeByH",
+        "baseUriRedirect",
+        "rotationBy90s",
+        "profileLinkHeader",
+        "sizeByForcedWh",
+        "sizeByWh",
+        "mirroring"
+      ]
+    }
+  ]
+}

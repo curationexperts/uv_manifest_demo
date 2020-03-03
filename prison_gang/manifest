@@ -1,0 +1,59 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://localhost:3000/iiif/26663xsj41-cor/manifest",
+  "label": "Prison gang on King's Wharf in St. Thomas, W.I.",
+  "metadata": [
+    {
+      "label": "Provided by",
+      "value": [
+        "Stuart A. Rose Manuscript, Archives, and Rare Book Library"
+      ]
+    },
+    {
+      "label": "Rights Status",
+      "value": [
+        "http://rightsstatements.org/vocab/NoC-US/1.0/"
+      ]
+    },
+    {
+      "label": "Identifier",
+      "value": "26663xsj41-cor"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "http://localhost:3000/iiif/26663xsj41-cor/manifest/sequence/normal",
+      "rendering": [],
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:3000/iiif/26663xsj41-cor/manifest/canvas/747dr7sqvt-cor",
+          "label": "prison_gang_full.jpg",
+          "width": 640,
+          "height": 480,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "http://localhost:3000/images/747dr7sqvt-cor%2Ffiles%2F981604df-cca0-4032-9d61-e603d0cb6d9f/full/600,/0/default.jpg",
+                "height": 480,
+                "width": 640,
+                "format": null,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:3000/images/747dr7sqvt-cor%2Ffiles%2F981604df-cca0-4032-9d61-e603d0cb6d9f",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "http://localhost:3000/iiif/26663xsj41-cor/manifest/canvas/747dr7sqvt-cor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

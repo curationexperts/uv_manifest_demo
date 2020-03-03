@@ -9,10 +9,12 @@ I usually run my Curate application on `localhost:3000` and my Lux application o
 * `bundle exec rails s -p 3001`
 
 # Change IIIF server in ENV
-In the `env.development` file of your local Lux application, change your
-* `IIIF_MANIFEST_URL` to `http://localhost:3002/concern/curate_generic_works/`
-* `SOLR_URL` to `http://solr-cor-test.library.emory.edu/solr/curate_collection`
-* `THUMBNAIL_URL` to `https://curate-test.library.emory.edu/`
+In the `env.development` file of your local Lux application, use the following
+```
+IIIF_MANIFEST_URL=http://localhost:3002/concern/curate_generic_works/
+SOLR_URL=http://solr-cor-test.library.emory.edu/solr/curate_collection
+THUMBNAIL_URL=https://curate-test.library.emory.edu/
+```
 
 # Examples
 * Boar Figurine - Metadata
